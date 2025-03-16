@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT Competition - Monitoring Group</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>PPT Competition 2025</h1>
+        <p>Organized by <strong>Monitoring Group</strong></p>
+        <p><strong>President:</strong> Shivam | <strong>Vice President:</strong> Ayush</p>
+        <p>Presented by <strong>Faisal Raza</strong></p>
+    </header>
+
+    <!-- Introduction Section -->
+    <section>
+        <h2>Welcome to the PPT Competition</h2>
+        <p>This competition is designed to enhance presentation skills and encourage creativity.</p>
+        <p>All participants are required to submit their PPTs before the deadline.</p>
+    </section>
+
+    <!-- Event Schedule Table -->
+    <section>
+        <h2>Event Schedule</h2>
+        <table border="1">
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Introduction & Rules</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Presentations Begin</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>Winner Announcement</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Rules Section -->
+    <section>
+        <h2>Competition Rules</h2>
+        <ul>
+            <li>Each participant gets 10 minutes to present.</li>
+            <li>Use of multimedia is encouraged.</li>
+            <li>PPTs should be original and creative.</li>
+            <li>Judging criteria: Content, Design, and Delivery.</li>
+        </ul>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register for the Competition</h2>
+        <form action="register.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="ppt">Upload Your PPT:</label>
+            <input type="file" id="ppt" name="ppt" accept=".ppt, .pptx" required><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section>
+        <h2>Previous Year Highlights</h2>
+        <p>Watch the highlights of our previous competitions.</p>
+
+        <!-- Image -->
+        <img src="ppt-event.jpg" alt="PPT Competition Event" width="400">
+
+        <!-- Audio -->
+        <p>Listen to last year's winner:</p>
+        <audio controls>
+            <source src="winner-speech.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video -->
+        <p>Watch last year's best presentation:</p>
+        <video width="400" controls>
+            <source src="best-presentation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- YouTube Video -->
+        <h2>Learn How to Create an Engaging PPT</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k2DSi1zGEc8" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Judges Panel -->
+    <section>
+        <h2>Meet Our Judges</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Expertise</th>
+            </tr>
+            <tr>
+                <td>Dr. A. Sharma</td>
+                <td>Public Speaking & Communication</td>
+            </tr>
+            <tr>
+                <td>Prof. R. Mehta</td>
+                <td>Design & Creativity</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Feedback Form -->
+    <section>
+        <h2>Give Your Feedback</h2>
+        <form action="feedback.php" method="post">
+            <label for="comments">Your Feedback:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+        <h2>Contact Us</h2>
+        <p>For any queries, reach out to us:</p>
+        <p>Email: <a href="mailto:info@pptcompetition.com">info@pptcompetition.com</a></p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PPT Competition | Organized by Monitoring Group | Designed by Faisal Raza</p>
+    </footer>
+
+</body>
+</html>
